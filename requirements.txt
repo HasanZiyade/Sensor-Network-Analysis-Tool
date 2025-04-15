@@ -1,0 +1,14 @@
+# Core numerical and data processing libraries
+numpy>=1.20.0
+scipy>=1.6.0
+
+# Visualization
+matplotlib>=3.3.0
+
+# Network analysis
+networkx>=2.5
+
+# Geometric operations
+shapely>=1.7.0
+
+# GUI dependencies (tkinter comes with standard Python)
