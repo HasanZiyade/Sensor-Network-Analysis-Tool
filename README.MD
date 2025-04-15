@@ -184,27 +184,6 @@ network = SensorNetwork(points=points)
 network.find_maximal_support_path()
 ```
 
-## File Structure
-sensor-network-analysis/
-│
-├── main.py                  # Command-line interface
-├── gui.py                   # Graphical user interface
-├── functions.py             # Core algorithms and functionality
-├── requirements.txt         # Package dependencies
-├── README.md                # Documentation
-│
-├── examples/                # Example sensor configurations
-│   ├── grid_layout.csv      # Regular grid of sensors
-│   ├── random_layout.csv    # Random sensor placement
-│   └── sparse_layout.csv    # Sparse sensor distribution
-│
-└── screenshots/             # Screenshots for documentation
-    ├── gui_overview.png
-    ├── network_connectivity.png
-    ├── network_coverage.png
-    ├── maximal_breach_path.png
-    └── maximal_support_path.png
-
 ## Algorithms in Detail
 
 ### Voronoi Diagram for Maximal Breach Path
