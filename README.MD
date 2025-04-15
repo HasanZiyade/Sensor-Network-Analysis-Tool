@@ -212,30 +212,6 @@ The path finding algorithm uses a modified version of Dijkstra's algorithm:
 - For maximal support, we maximize the minimum coverage
 - Priority queues with custom comparators ensure efficient implementation
 
-## Contributing
-
-Contributions to the Sensor Network Analysis Tool are welcome! Here's how you can contribute:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b new-feature`
-3. Commit your changes: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin new-feature`
-5. Submit a pull request
-
-Please adhere to the existing code style and include appropriate tests.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-This project was inspired by research in wireless sensor networks and path planning algorithms
-Special thanks to contributors and researchers in computational geometry
-
-## Contact
-
-For questions, issues, or collaboration opportunities, please open an issue on the GitHub repository or contact the maintainer directly.
-
-<p align="center"> <img src="screenshots/maximal_breach_path.png" alt="Maximal Breach Path" width="400"> <img src="screenshots/maximal_support_path.png" alt="Maximal Support Path" width="400"> </p>
-````
